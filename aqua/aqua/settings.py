@@ -148,6 +148,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS = ['food-production-934d.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://food-production-934d.up.railway.app']
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
