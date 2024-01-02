@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-*e&0#l655b!duf8ch7vvhsphm0@t4)g2a9=f5)v4yb6fkzg7fw
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://sk-fish-food-production-a36e.up.railway.app/"]
+ALLOWED_HOSTS = ["https://food-production-934d.up.railway.app/"]
 
 
 # Application definition
@@ -148,6 +148,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS = ['https://sk-fish-food-production-a36e.up.railway.app/']
+CSRF_TRUSTED_ORIGINS = ['https://food-production-934d.up.railway.app/']
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
